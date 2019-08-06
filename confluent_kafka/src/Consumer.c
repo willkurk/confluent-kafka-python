@@ -1401,7 +1401,7 @@ static PyObject *Consumer_new (PyTypeObject *type, PyObject *args,
 
 PyTypeObject ConsumerType = {
 	PyVarObject_HEAD_INIT(NULL, 0)
-	"cimpl.Consumer",        /*tp_name*/
+	"confluent_kafka.cimpl.Consumer",        /*tp_name*/
 	sizeof(Handle),          /*tp_basicsize*/
 	0,                         /*tp_itemsize*/
 	(destructor)Consumer_dealloc, /*tp_dealloc*/
