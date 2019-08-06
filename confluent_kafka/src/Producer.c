@@ -526,7 +526,7 @@ static PyObject *Producer_new (PyTypeObject *type, PyObject *args,
 
 PyTypeObject ProducerType = {
 	PyVarObject_HEAD_INIT(NULL, 0)
-	"cimpl.Producer",        /*tp_name*/
+	"confluent_kafka.cimpl.Producer",        /*tp_name*/
 	sizeof(Handle),      /*tp_basicsize*/
 	0,                         /*tp_itemsize*/
 	(destructor)Producer_dealloc, /*tp_dealloc*/

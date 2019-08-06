@@ -218,7 +218,7 @@ static PyObject* KafkaError_richcompare (KafkaError *self, PyObject *o2,
 
 static PyTypeObject KafkaErrorType = {
 	PyVarObject_HEAD_INIT(NULL, 0)
-	"cimpl.KafkaError",      /*tp_name*/
+	"confluent_kafka.cimpl.KafkaError",      /*tp_name*/
 	sizeof(KafkaError),    /*tp_basicsize*/
 	0,                         /*tp_itemsize*/
 	(destructor)KafkaError_dealloc, /*tp_dealloc*/

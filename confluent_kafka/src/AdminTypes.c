@@ -210,7 +210,7 @@ static long NewTopic_hash (NewTopic *self) {
 
 PyTypeObject NewTopicType = {
         PyVarObject_HEAD_INIT(NULL, 0)
-        "cimpl.NewTopic",         /*tp_name*/
+        "confluent_kafka.cimpl.NewTopic",         /*tp_name*/
         sizeof(NewTopic),       /*tp_basicsize*/
         0,                         /*tp_itemsize*/
         (destructor)NewTopic_dealloc, /*tp_dealloc*/
